@@ -11,6 +11,8 @@ runtime.onInstalled.addListener(({ reason }) => {
   }
 });
 
+
+
 const fetchTabs = () => browser.tabs.query({ url: youtubeURL });
 
 const reloadTabs = async () => {
