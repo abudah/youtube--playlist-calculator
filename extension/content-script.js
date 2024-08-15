@@ -33,7 +33,9 @@ const styles = {
         padding: 0 4px;
     }
   `,
-};
+};   
+
+
 
 const addScript = (src) => {
   const script = document.createElement("script");
